@@ -1,0 +1,11 @@
+[2024-07-20T04:18:55.442+0000] {processor.py:161} INFO - Started process (PID=43) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-07-20T04:18:55.444+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-07-20T04:18:55.447+0000] {logging_mixin.py:188} INFO - [2024-07-20T04:18:55.446+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-07-20T04:18:55.464+0000] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-07-20T04:18:55.597+0000] {logging_mixin.py:188} INFO - [2024-07-20T04:18:55.596+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:example_params_trigger_ui
+[2024-07-20T04:18:55.604+0000] {logging_mixin.py:188} INFO - [2024-07-20T04:18:55.604+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:example_params_trigger_ui
+[2024-07-20T04:18:55.611+0000] {logging_mixin.py:188} INFO - [2024-07-20T04:18:55.611+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:example_params_trigger_ui
+[2024-07-20T04:18:55.612+0000] {logging_mixin.py:188} INFO - [2024-07-20T04:18:55.612+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-20T04:18:55.620+0000] {logging_mixin.py:188} INFO - [2024-07-20T04:18:55.620+0000] {dag.py:3118} INFO - Creating ORM DAG for example_params_trigger_ui
+[2024-07-20T04:18:55.621+0000] {logging_mixin.py:188} INFO - [2024-07-20T04:18:55.621+0000] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-07-20T04:18:55.634+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.199 seconds

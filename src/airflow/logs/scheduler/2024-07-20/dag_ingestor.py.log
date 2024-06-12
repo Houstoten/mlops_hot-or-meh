@@ -1,0 +1,757 @@
+[2024-07-20T03:32:43.636+0000] {processor.py:156} INFO - Started process (PID=34) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:32:43.647+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T03:32:43.648+0000] {logging_mixin.py:117} INFO - [2024-07-20T03:32:43.648+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:32:43.694+0000] {logging_mixin.py:117} INFO - [2024-07-20T03:32:43.692+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dag_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ingestor.py", line 2, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2024-07-20T03:32:43.696+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:32:44.007+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.375 seconds
+[2024-07-20T03:33:14.105+0000] {processor.py:156} INFO - Started process (PID=97) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:33:14.108+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T03:33:14.109+0000] {logging_mixin.py:117} INFO - [2024-07-20T03:33:14.109+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:33:14.136+0000] {logging_mixin.py:117} INFO - [2024-07-20T03:33:14.132+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dag_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ingestor.py", line 2, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2024-07-20T03:33:14.138+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:33:14.164+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.065 seconds
+[2024-07-20T03:33:44.978+0000] {processor.py:156} INFO - Started process (PID=160) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:33:44.982+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T03:33:44.983+0000] {logging_mixin.py:117} INFO - [2024-07-20T03:33:44.983+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:33:44.996+0000] {logging_mixin.py:117} INFO - [2024-07-20T03:33:44.992+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dag_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ingestor.py", line 2, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[2024-07-20T03:33:44.998+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:33:45.038+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.063 seconds
+[2024-07-20T03:33:57.285+0000] {processor.py:156} INFO - Started process (PID=208) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:33:57.287+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T03:33:57.289+0000] {logging_mixin.py:117} INFO - [2024-07-20T03:33:57.289+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:33:57.502+0000] {logging_mixin.py:117} INFO - [2024-07-20T03:33:57.500+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dag_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ingestor.py", line 9, in <module>
+    from gql import Client, gql
+ModuleNotFoundError: No module named 'gql'
+[2024-07-20T03:33:57.503+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:33:57.533+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.252 seconds
+[2024-07-20T03:35:12.025+0000] {processor.py:156} INFO - Started process (PID=34) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:35:12.028+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T03:35:12.029+0000] {logging_mixin.py:117} INFO - [2024-07-20T03:35:12.029+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:35:12.606+0000] {logging_mixin.py:117} INFO - [2024-07-20T03:35:12.593+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dag_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ingestor.py", line 9, in <module>
+    from gql import Client, gql
+ModuleNotFoundError: No module named 'gql'
+[2024-07-20T03:35:12.609+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:35:12.661+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.654 seconds
+[2024-07-20T03:35:42.948+0000] {processor.py:156} INFO - Started process (PID=98) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:35:42.950+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T03:35:42.952+0000] {logging_mixin.py:117} INFO - [2024-07-20T03:35:42.951+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:35:43.055+0000] {logging_mixin.py:117} INFO - [2024-07-20T03:35:43.054+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dag_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ingestor.py", line 9, in <module>
+    from gql import Client, gql
+ModuleNotFoundError: No module named 'gql'
+[2024-07-20T03:35:43.056+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:35:43.073+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.132 seconds
+[2024-07-20T03:36:13.713+0000] {processor.py:156} INFO - Started process (PID=163) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:36:13.715+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T03:36:13.717+0000] {logging_mixin.py:117} INFO - [2024-07-20T03:36:13.716+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:36:13.816+0000] {logging_mixin.py:117} INFO - [2024-07-20T03:36:13.813+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dag_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ingestor.py", line 9, in <module>
+    from gql import Client, gql
+ModuleNotFoundError: No module named 'gql'
+[2024-07-20T03:36:13.817+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:36:13.846+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.138 seconds
+[2024-07-20T03:36:44.459+0000] {processor.py:156} INFO - Started process (PID=227) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:36:44.462+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T03:36:44.465+0000] {logging_mixin.py:117} INFO - [2024-07-20T03:36:44.464+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:36:44.626+0000] {logging_mixin.py:117} INFO - [2024-07-20T03:36:44.624+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dag_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ingestor.py", line 9, in <module>
+    from gql import Client, gql
+ModuleNotFoundError: No module named 'gql'
+[2024-07-20T03:36:44.627+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:36:44.661+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.209 seconds
+[2024-07-20T03:37:14.992+0000] {processor.py:156} INFO - Started process (PID=282) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:37:14.994+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T03:37:14.996+0000] {logging_mixin.py:117} INFO - [2024-07-20T03:37:14.996+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:37:15.112+0000] {logging_mixin.py:117} INFO - [2024-07-20T03:37:15.110+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dag_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ingestor.py", line 9, in <module>
+    from gql import Client, gql
+ModuleNotFoundError: No module named 'gql'
+[2024-07-20T03:37:15.112+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:37:15.131+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.145 seconds
+[2024-07-20T03:37:45.634+0000] {processor.py:156} INFO - Started process (PID=347) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:37:45.636+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T03:37:45.638+0000] {logging_mixin.py:117} INFO - [2024-07-20T03:37:45.638+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:37:45.746+0000] {logging_mixin.py:117} INFO - [2024-07-20T03:37:45.745+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dag_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ingestor.py", line 9, in <module>
+    from gql import Client, gql
+ModuleNotFoundError: No module named 'gql'
+[2024-07-20T03:37:45.748+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:37:45.764+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.138 seconds
+[2024-07-20T03:38:16.487+0000] {processor.py:156} INFO - Started process (PID=411) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:38:16.490+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T03:38:16.491+0000] {logging_mixin.py:117} INFO - [2024-07-20T03:38:16.491+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:38:16.627+0000] {logging_mixin.py:117} INFO - [2024-07-20T03:38:16.623+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dag_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ingestor.py", line 9, in <module>
+    from gql import Client, gql
+ModuleNotFoundError: No module named 'gql'
+[2024-07-20T03:38:16.632+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:38:16.655+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.179 seconds
+[2024-07-20T03:38:47.305+0000] {processor.py:156} INFO - Started process (PID=476) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:38:47.308+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T03:38:47.309+0000] {logging_mixin.py:117} INFO - [2024-07-20T03:38:47.309+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:38:47.404+0000] {logging_mixin.py:117} INFO - [2024-07-20T03:38:47.403+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dag_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ingestor.py", line 9, in <module>
+    from gql import Client, gql
+ModuleNotFoundError: No module named 'gql'
+[2024-07-20T03:38:47.405+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:38:47.422+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.122 seconds
+[2024-07-20T03:39:18.176+0000] {processor.py:156} INFO - Started process (PID=540) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:39:18.181+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T03:39:18.184+0000] {logging_mixin.py:117} INFO - [2024-07-20T03:39:18.184+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:39:18.371+0000] {logging_mixin.py:117} INFO - [2024-07-20T03:39:18.366+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dag_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ingestor.py", line 9, in <module>
+    from gql import Client, gql
+ModuleNotFoundError: No module named 'gql'
+[2024-07-20T03:39:18.374+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:39:18.392+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.225 seconds
+[2024-07-20T03:39:48.540+0000] {processor.py:156} INFO - Started process (PID=594) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:39:48.542+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T03:39:48.543+0000] {logging_mixin.py:117} INFO - [2024-07-20T03:39:48.543+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:39:48.636+0000] {logging_mixin.py:117} INFO - [2024-07-20T03:39:48.635+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dag_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ingestor.py", line 9, in <module>
+    from gql import Client, gql
+ModuleNotFoundError: No module named 'gql'
+[2024-07-20T03:39:48.637+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:39:48.653+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.120 seconds
+[2024-07-20T03:40:19.266+0000] {processor.py:156} INFO - Started process (PID=658) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:40:19.268+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T03:40:19.270+0000] {logging_mixin.py:117} INFO - [2024-07-20T03:40:19.269+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:40:19.368+0000] {logging_mixin.py:117} INFO - [2024-07-20T03:40:19.367+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dag_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ingestor.py", line 9, in <module>
+    from gql import Client, gql
+ModuleNotFoundError: No module named 'gql'
+[2024-07-20T03:40:19.369+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:40:19.385+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.125 seconds
+[2024-07-20T03:40:49.870+0000] {processor.py:156} INFO - Started process (PID=722) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:40:49.872+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T03:40:49.874+0000] {logging_mixin.py:117} INFO - [2024-07-20T03:40:49.874+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:40:49.976+0000] {logging_mixin.py:117} INFO - [2024-07-20T03:40:49.974+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dag_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ingestor.py", line 9, in <module>
+    from gql import Client, gql
+ModuleNotFoundError: No module named 'gql'
+[2024-07-20T03:40:49.977+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:40:49.992+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.128 seconds
+[2024-07-20T03:41:20.708+0000] {processor.py:156} INFO - Started process (PID=787) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:41:20.710+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T03:41:20.712+0000] {logging_mixin.py:117} INFO - [2024-07-20T03:41:20.712+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:41:20.830+0000] {logging_mixin.py:117} INFO - [2024-07-20T03:41:20.828+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dag_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ingestor.py", line 9, in <module>
+    from gql import Client, gql
+ModuleNotFoundError: No module named 'gql'
+[2024-07-20T03:41:20.831+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:41:20.847+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.144 seconds
+[2024-07-20T03:41:51.205+0000] {processor.py:156} INFO - Started process (PID=851) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:41:51.206+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T03:41:51.208+0000] {logging_mixin.py:117} INFO - [2024-07-20T03:41:51.208+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:41:51.296+0000] {logging_mixin.py:117} INFO - [2024-07-20T03:41:51.295+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dag_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ingestor.py", line 9, in <module>
+    from gql import Client, gql
+ModuleNotFoundError: No module named 'gql'
+[2024-07-20T03:41:51.297+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:41:51.314+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.112 seconds
+[2024-07-20T03:42:21.892+0000] {processor.py:156} INFO - Started process (PID=915) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:42:21.893+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T03:42:21.895+0000] {logging_mixin.py:117} INFO - [2024-07-20T03:42:21.895+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:42:21.983+0000] {logging_mixin.py:117} INFO - [2024-07-20T03:42:21.982+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dag_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ingestor.py", line 9, in <module>
+    from gql import Client, gql
+ModuleNotFoundError: No module named 'gql'
+[2024-07-20T03:42:21.984+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:42:21.999+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.112 seconds
+[2024-07-20T03:42:52.442+0000] {processor.py:156} INFO - Started process (PID=970) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:42:52.443+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T03:42:52.445+0000] {logging_mixin.py:117} INFO - [2024-07-20T03:42:52.445+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:42:52.540+0000] {logging_mixin.py:117} INFO - [2024-07-20T03:42:52.537+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dag_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ingestor.py", line 9, in <module>
+    from gql import Client, gql
+ModuleNotFoundError: No module named 'gql'
+[2024-07-20T03:42:52.542+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:42:52.559+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.123 seconds
+[2024-07-20T03:43:23.211+0000] {processor.py:156} INFO - Started process (PID=1033) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:43:23.213+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T03:43:23.214+0000] {logging_mixin.py:117} INFO - [2024-07-20T03:43:23.214+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:43:23.319+0000] {logging_mixin.py:117} INFO - [2024-07-20T03:43:23.318+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dag_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ingestor.py", line 9, in <module>
+    from gql import Client, gql
+ModuleNotFoundError: No module named 'gql'
+[2024-07-20T03:43:23.320+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:43:23.336+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.132 seconds
+[2024-07-20T03:43:53.952+0000] {processor.py:156} INFO - Started process (PID=1097) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:43:53.954+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T03:43:53.956+0000] {logging_mixin.py:117} INFO - [2024-07-20T03:43:53.956+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:43:54.046+0000] {logging_mixin.py:117} INFO - [2024-07-20T03:43:54.045+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dag_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ingestor.py", line 9, in <module>
+    from gql import Client, gql
+ModuleNotFoundError: No module named 'gql'
+[2024-07-20T03:43:54.048+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:43:54.064+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.132 seconds
+[2024-07-20T03:44:24.820+0000] {processor.py:156} INFO - Started process (PID=1161) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:44:24.822+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T03:44:24.826+0000] {logging_mixin.py:117} INFO - [2024-07-20T03:44:24.826+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:44:24.965+0000] {logging_mixin.py:117} INFO - [2024-07-20T03:44:24.963+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dag_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ingestor.py", line 9, in <module>
+    from gql import Client, gql
+ModuleNotFoundError: No module named 'gql'
+[2024-07-20T03:44:24.966+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:44:24.992+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.180 seconds
+[2024-07-20T03:44:55.580+0000] {processor.py:156} INFO - Started process (PID=1225) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:44:55.582+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T03:44:55.583+0000] {logging_mixin.py:117} INFO - [2024-07-20T03:44:55.583+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:44:55.694+0000] {logging_mixin.py:117} INFO - [2024-07-20T03:44:55.691+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dag_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ingestor.py", line 9, in <module>
+    from gql import Client, gql
+ModuleNotFoundError: No module named 'gql'
+[2024-07-20T03:44:55.696+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:44:55.713+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.139 seconds
+[2024-07-20T03:45:26.614+0000] {processor.py:156} INFO - Started process (PID=1288) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:45:26.617+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T03:45:26.618+0000] {logging_mixin.py:117} INFO - [2024-07-20T03:45:26.618+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:45:26.716+0000] {logging_mixin.py:117} INFO - [2024-07-20T03:45:26.715+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dag_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ingestor.py", line 9, in <module>
+    from gql import Client, gql
+ModuleNotFoundError: No module named 'gql'
+[2024-07-20T03:45:26.717+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:45:26.732+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.126 seconds
+[2024-07-20T03:45:57.230+0000] {processor.py:156} INFO - Started process (PID=1343) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:45:57.232+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T03:45:57.234+0000] {logging_mixin.py:117} INFO - [2024-07-20T03:45:57.234+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:45:57.346+0000] {logging_mixin.py:117} INFO - [2024-07-20T03:45:57.345+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dag_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ingestor.py", line 9, in <module>
+    from gql import Client, gql
+ModuleNotFoundError: No module named 'gql'
+[2024-07-20T03:45:57.347+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:45:57.364+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.144 seconds
+[2024-07-20T03:46:27.874+0000] {processor.py:156} INFO - Started process (PID=1408) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:46:27.876+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T03:46:27.877+0000] {logging_mixin.py:117} INFO - [2024-07-20T03:46:27.877+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:46:27.972+0000] {logging_mixin.py:117} INFO - [2024-07-20T03:46:27.970+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dag_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ingestor.py", line 9, in <module>
+    from gql import Client, gql
+ModuleNotFoundError: No module named 'gql'
+[2024-07-20T03:46:27.972+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:46:27.989+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.122 seconds
+[2024-07-20T03:46:58.994+0000] {processor.py:156} INFO - Started process (PID=1472) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:46:58.996+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T03:46:58.998+0000] {logging_mixin.py:117} INFO - [2024-07-20T03:46:58.998+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:46:59.109+0000] {logging_mixin.py:117} INFO - [2024-07-20T03:46:59.107+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dag_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ingestor.py", line 9, in <module>
+    from gql import Client, gql
+ModuleNotFoundError: No module named 'gql'
+[2024-07-20T03:46:59.110+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:46:59.130+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.146 seconds
+[2024-07-20T03:47:29.450+0000] {processor.py:156} INFO - Started process (PID=1535) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:47:29.452+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T03:47:29.454+0000] {logging_mixin.py:117} INFO - [2024-07-20T03:47:29.454+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:47:29.537+0000] {logging_mixin.py:117} INFO - [2024-07-20T03:47:29.535+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dag_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ingestor.py", line 9, in <module>
+    from gql import Client, gql
+ModuleNotFoundError: No module named 'gql'
+[2024-07-20T03:47:29.538+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:47:29.562+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.117 seconds
+[2024-07-20T03:48:00.111+0000] {processor.py:156} INFO - Started process (PID=1598) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:48:00.113+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T03:48:00.114+0000] {logging_mixin.py:117} INFO - [2024-07-20T03:48:00.114+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:48:00.209+0000] {logging_mixin.py:117} INFO - [2024-07-20T03:48:00.207+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dag_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ingestor.py", line 9, in <module>
+    from gql import Client, gql
+ModuleNotFoundError: No module named 'gql'
+[2024-07-20T03:48:00.210+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:48:00.226+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.123 seconds
+[2024-07-20T03:48:30.798+0000] {processor.py:156} INFO - Started process (PID=1662) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:48:30.799+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T03:48:30.800+0000] {logging_mixin.py:117} INFO - [2024-07-20T03:48:30.800+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:48:30.888+0000] {logging_mixin.py:117} INFO - [2024-07-20T03:48:30.886+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dag_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ingestor.py", line 9, in <module>
+    from gql import Client, gql
+ModuleNotFoundError: No module named 'gql'
+[2024-07-20T03:48:30.888+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:48:30.904+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.110 seconds
+[2024-07-20T03:49:01.546+0000] {processor.py:156} INFO - Started process (PID=1717) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:49:01.547+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T03:49:01.549+0000] {logging_mixin.py:117} INFO - [2024-07-20T03:49:01.549+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:49:01.643+0000] {logging_mixin.py:117} INFO - [2024-07-20T03:49:01.641+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dag_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ingestor.py", line 9, in <module>
+    from gql import Client, gql
+ModuleNotFoundError: No module named 'gql'
+[2024-07-20T03:49:01.649+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T03:49:01.666+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.126 seconds
+[2024-07-20T04:18:52.831+0000] {processor.py:161} INFO - Started process (PID=26) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T04:18:52.833+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T04:18:52.836+0000] {logging_mixin.py:188} INFO - [2024-07-20T04:18:52.835+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T04:18:52.847+0000] {logging_mixin.py:188} INFO - [2024-07-20T04:18:52.845+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ingestor.py", line 9, in <module>
+    from gql import Client, gql
+ModuleNotFoundError: No module named 'gql'
+[2024-07-20T04:18:52.848+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T04:18:52.877+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.055 seconds
+[2024-07-20T05:01:38.664+0000] {processor.py:156} INFO - Started process (PID=34) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:01:38.667+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T05:01:38.668+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:01:38.668+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:01:39.157+0000] {processor.py:768} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:01:39.235+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:01:39.235+0000] {manager.py:508} INFO - Created Permission View: can delete on DAG:data_pipeline
+[2024-07-20T05:01:39.240+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:01:39.240+0000] {manager.py:508} INFO - Created Permission View: can edit on DAG:data_pipeline
+[2024-07-20T05:01:39.245+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:01:39.245+0000] {manager.py:508} INFO - Created Permission View: can read on DAG:data_pipeline
+[2024-07-20T05:01:39.245+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:01:39.245+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2024-07-20T05:01:39.253+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:01:39.253+0000] {dag.py:2594} INFO - Creating ORM DAG for data_pipeline
+[2024-07-20T05:01:39.260+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:01:39.260+0000] {dag.py:3328} INFO - Setting next_dagrun for data_pipeline to 2024-07-19T00:00:00+00:00, run_after=2024-07-20T00:00:00+00:00
+[2024-07-20T05:01:39.279+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.638 seconds
+[2024-07-20T05:02:10.203+0000] {processor.py:156} INFO - Started process (PID=98) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:02:10.206+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T05:02:10.208+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:02:10.207+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:02:10.312+0000] {processor.py:768} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:02:10.334+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:02:10.334+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2024-07-20T05:02:10.352+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:02:10.351+0000] {dag.py:3328} INFO - Setting next_dagrun for data_pipeline to 2024-07-19T00:00:00+00:00, run_after=2024-07-20T00:00:00+00:00
+[2024-07-20T05:02:10.362+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.166 seconds
+[2024-07-20T05:02:40.885+0000] {processor.py:156} INFO - Started process (PID=162) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:02:40.888+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T05:02:40.889+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:02:40.889+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:02:40.982+0000] {processor.py:768} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:02:41.010+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:02:41.010+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2024-07-20T05:02:41.029+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:02:41.029+0000] {dag.py:3328} INFO - Setting next_dagrun for data_pipeline to 2024-07-19T00:00:00+00:00, run_after=2024-07-20T00:00:00+00:00
+[2024-07-20T05:02:41.040+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.162 seconds
+[2024-07-20T05:03:11.670+0000] {processor.py:156} INFO - Started process (PID=226) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:03:11.676+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T05:03:11.691+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:03:11.691+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:03:12.444+0000] {processor.py:768} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:03:12.529+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:03:12.529+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2024-07-20T05:03:12.619+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:03:12.619+0000] {dag.py:3328} INFO - Setting next_dagrun for data_pipeline to 2024-07-19T00:00:00+00:00, run_after=2024-07-20T00:00:00+00:00
+[2024-07-20T05:03:12.695+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 1.043 seconds
+[2024-07-20T05:04:10.030+0000] {processor.py:156} INFO - Started process (PID=34) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:04:10.034+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T05:04:10.035+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:04:10.035+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:04:10.740+0000] {processor.py:768} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:04:10.829+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:04:10.829+0000] {manager.py:508} INFO - Created Permission View: can delete on DAG:data_pipeline
+[2024-07-20T05:04:10.835+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:04:10.835+0000] {manager.py:508} INFO - Created Permission View: can edit on DAG:data_pipeline
+[2024-07-20T05:04:10.840+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:04:10.840+0000] {manager.py:508} INFO - Created Permission View: can read on DAG:data_pipeline
+[2024-07-20T05:04:10.841+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:04:10.840+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2024-07-20T05:04:10.851+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:04:10.851+0000] {dag.py:2594} INFO - Creating ORM DAG for data_pipeline
+[2024-07-20T05:04:10.868+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:04:10.868+0000] {dag.py:3328} INFO - Setting next_dagrun for data_pipeline to 2024-07-19T00:00:00+00:00, run_after=2024-07-20T00:00:00+00:00
+[2024-07-20T05:04:10.898+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.878 seconds
+[2024-07-20T05:04:41.658+0000] {processor.py:156} INFO - Started process (PID=97) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:04:41.660+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T05:04:41.661+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:04:41.661+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:04:41.770+0000] {processor.py:768} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:04:41.792+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:04:41.792+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2024-07-20T05:04:41.809+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:04:41.809+0000] {dag.py:3328} INFO - Setting next_dagrun for data_pipeline to 2024-07-19T00:00:00+00:00, run_after=2024-07-20T00:00:00+00:00
+[2024-07-20T05:04:41.821+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.169 seconds
+[2024-07-20T05:05:12.470+0000] {processor.py:156} INFO - Started process (PID=160) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:05:12.472+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T05:05:12.473+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:05:12.473+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:05:12.561+0000] {processor.py:768} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:05:12.590+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:05:12.590+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2024-07-20T05:05:12.606+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:05:12.606+0000] {dag.py:3328} INFO - Setting next_dagrun for data_pipeline to 2024-07-19T00:00:00+00:00, run_after=2024-07-20T00:00:00+00:00
+[2024-07-20T05:05:12.618+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.152 seconds
+[2024-07-20T05:05:42.855+0000] {processor.py:156} INFO - Started process (PID=225) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:05:42.857+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T05:05:42.858+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:05:42.858+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:05:42.946+0000] {processor.py:768} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:05:42.969+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:05:42.969+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2024-07-20T05:05:42.987+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:05:42.987+0000] {dag.py:3328} INFO - Setting next_dagrun for data_pipeline to 2024-07-19T00:00:00+00:00, run_after=2024-07-20T00:00:00+00:00
+[2024-07-20T05:05:43.000+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.147 seconds
+[2024-07-20T05:06:13.422+0000] {processor.py:156} INFO - Started process (PID=280) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:06:13.425+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T05:06:13.427+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:06:13.426+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:06:13.542+0000] {processor.py:768} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:06:13.567+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:06:13.567+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2024-07-20T05:06:13.584+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:06:13.584+0000] {dag.py:3328} INFO - Setting next_dagrun for data_pipeline to 2024-07-19T00:00:00+00:00, run_after=2024-07-20T00:00:00+00:00
+[2024-07-20T05:06:13.597+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.184 seconds
+[2024-07-20T05:06:44.023+0000] {processor.py:156} INFO - Started process (PID=33) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:06:44.031+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T05:06:44.033+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:06:44.033+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:06:44.595+0000] {processor.py:768} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:06:44.701+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:06:44.701+0000] {manager.py:508} INFO - Created Permission View: can read on DAG:data_pipeline
+[2024-07-20T05:06:44.719+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:06:44.719+0000] {manager.py:508} INFO - Created Permission View: can edit on DAG:data_pipeline
+[2024-07-20T05:06:44.727+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:06:44.727+0000] {manager.py:508} INFO - Created Permission View: can delete on DAG:data_pipeline
+[2024-07-20T05:06:44.728+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:06:44.728+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2024-07-20T05:06:44.746+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:06:44.746+0000] {dag.py:2594} INFO - Creating ORM DAG for data_pipeline
+[2024-07-20T05:06:44.767+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:06:44.767+0000] {dag.py:3328} INFO - Setting next_dagrun for data_pipeline to 2024-07-19T00:00:00+00:00, run_after=2024-07-20T00:00:00+00:00
+[2024-07-20T05:06:44.782+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.775 seconds
+[2024-07-20T05:07:15.262+0000] {processor.py:156} INFO - Started process (PID=98) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:07:15.264+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T05:07:15.266+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:07:15.266+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:07:15.388+0000] {processor.py:768} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:07:15.414+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:07:15.414+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2024-07-20T05:07:15.436+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:07:15.436+0000] {dag.py:3328} INFO - Setting next_dagrun for data_pipeline to 2024-07-19T00:00:00+00:00, run_after=2024-07-20T00:00:00+00:00
+[2024-07-20T05:07:15.446+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.190 seconds
+[2024-07-20T05:07:45.850+0000] {processor.py:156} INFO - Started process (PID=167) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:07:45.851+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T05:07:45.852+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:07:45.852+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:07:45.942+0000] {processor.py:768} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:07:45.968+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:07:45.968+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2024-07-20T05:07:45.985+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:07:45.985+0000] {dag.py:3328} INFO - Setting next_dagrun for data_pipeline to 2024-07-20T00:00:00+00:00, run_after=2024-07-21T00:00:00+00:00
+[2024-07-20T05:07:45.997+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.151 seconds
+[2024-07-20T05:08:16.503+0000] {processor.py:156} INFO - Started process (PID=223) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:08:16.505+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T05:08:16.506+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:08:16.506+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:08:16.675+0000] {processor.py:768} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:08:16.715+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:08:16.715+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2024-07-20T05:08:16.746+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:08:16.745+0000] {dag.py:3328} INFO - Setting next_dagrun for data_pipeline to 2024-07-20T00:00:00+00:00, run_after=2024-07-21T00:00:00+00:00
+[2024-07-20T05:08:16.767+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.266 seconds
+[2024-07-20T05:08:47.145+0000] {processor.py:156} INFO - Started process (PID=285) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:08:47.148+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T05:08:47.149+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:08:47.149+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:08:47.269+0000] {processor.py:768} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:08:47.292+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:08:47.291+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2024-07-20T05:08:47.307+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:08:47.307+0000] {dag.py:3328} INFO - Setting next_dagrun for data_pipeline to 2024-07-20T00:00:00+00:00, run_after=2024-07-21T00:00:00+00:00
+[2024-07-20T05:08:47.320+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.182 seconds
+[2024-07-20T05:09:17.744+0000] {processor.py:156} INFO - Started process (PID=348) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:09:17.746+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T05:09:17.747+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:09:17.747+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:09:17.855+0000] {processor.py:768} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:09:17.878+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:09:17.878+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2024-07-20T05:09:17.895+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:09:17.895+0000] {dag.py:3328} INFO - Setting next_dagrun for data_pipeline to 2024-07-20T00:00:00+00:00, run_after=2024-07-21T00:00:00+00:00
+[2024-07-20T05:09:17.905+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.167 seconds
+[2024-07-20T05:09:48.315+0000] {processor.py:156} INFO - Started process (PID=412) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:09:48.317+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T05:09:48.318+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:09:48.318+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:09:48.407+0000] {processor.py:768} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:09:48.430+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:09:48.429+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2024-07-20T05:09:48.451+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:09:48.451+0000] {dag.py:3328} INFO - Setting next_dagrun for data_pipeline to 2024-07-20T00:00:00+00:00, run_after=2024-07-21T00:00:00+00:00
+[2024-07-20T05:09:48.467+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.157 seconds
+[2024-07-20T05:10:18.822+0000] {processor.py:156} INFO - Started process (PID=476) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:10:18.825+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T05:10:18.826+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:10:18.826+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:10:18.919+0000] {processor.py:768} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:10:18.941+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:10:18.941+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2024-07-20T05:10:18.959+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:10:18.959+0000] {dag.py:3328} INFO - Setting next_dagrun for data_pipeline to 2024-07-20T00:00:00+00:00, run_after=2024-07-21T00:00:00+00:00
+[2024-07-20T05:10:18.970+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.154 seconds
+[2024-07-20T05:10:49.140+0000] {processor.py:156} INFO - Started process (PID=539) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:10:49.141+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T05:10:49.142+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:10:49.142+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:10:49.238+0000] {processor.py:768} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:10:49.260+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:10:49.260+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2024-07-20T05:10:49.277+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:10:49.276+0000] {dag.py:3328} INFO - Setting next_dagrun for data_pipeline to 2024-07-20T00:00:00+00:00, run_after=2024-07-21T00:00:00+00:00
+[2024-07-20T05:10:49.288+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.153 seconds
+[2024-07-20T05:11:19.579+0000] {processor.py:156} INFO - Started process (PID=594) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:11:19.581+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T05:11:19.583+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:11:19.583+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:11:19.673+0000] {processor.py:768} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:11:19.693+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:11:19.693+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2024-07-20T05:11:19.713+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:11:19.713+0000] {dag.py:3328} INFO - Setting next_dagrun for data_pipeline to 2024-07-20T00:00:00+00:00, run_after=2024-07-21T00:00:00+00:00
+[2024-07-20T05:11:19.726+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.153 seconds
+[2024-07-20T05:11:50.115+0000] {processor.py:156} INFO - Started process (PID=658) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:11:50.120+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T05:11:50.125+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:11:50.125+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:11:50.253+0000] {processor.py:768} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:11:50.279+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:11:50.279+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2024-07-20T05:11:50.297+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:11:50.297+0000] {dag.py:3328} INFO - Setting next_dagrun for data_pipeline to 2024-07-20T00:00:00+00:00, run_after=2024-07-21T00:00:00+00:00
+[2024-07-20T05:11:50.307+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.209 seconds
+[2024-07-20T05:12:20.634+0000] {processor.py:156} INFO - Started process (PID=722) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:12:20.636+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T05:12:20.637+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:12:20.637+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:12:20.744+0000] {processor.py:768} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:12:20.766+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:12:20.766+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2024-07-20T05:12:20.782+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:12:20.782+0000] {dag.py:3328} INFO - Setting next_dagrun for data_pipeline to 2024-07-20T00:00:00+00:00, run_after=2024-07-21T00:00:00+00:00
+[2024-07-20T05:12:20.793+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.165 seconds
+[2024-07-20T05:12:35.997+0000] {processor.py:156} INFO - Started process (PID=769) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:12:35.999+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T05:12:36.000+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:12:36.000+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:12:36.174+0000] {processor.py:768} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:12:36.217+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:12:36.217+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2024-07-20T05:12:36.237+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:12:36.237+0000] {dag.py:3328} INFO - Setting next_dagrun for data_pipeline to 2024-07-20T00:00:00+00:00, run_after=2024-07-21T00:00:00+00:00
+[2024-07-20T05:12:36.254+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.263 seconds
+[2024-07-20T05:12:38.010+0000] {processor.py:156} INFO - Started process (PID=779) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:12:38.011+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T05:12:38.012+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:12:38.012+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:12:38.087+0000] {processor.py:768} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:12:38.109+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:12:38.109+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2024-07-20T05:12:38.128+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:12:38.128+0000] {dag.py:3328} INFO - Setting next_dagrun for data_pipeline to 2024-07-20T00:00:00+00:00, run_after=2024-07-21T00:00:00+00:00
+[2024-07-20T05:12:38.156+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.150 seconds
+[2024-07-20T05:12:40.060+0000] {processor.py:156} INFO - Started process (PID=780) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:12:40.063+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T05:12:40.064+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:12:40.064+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:12:40.163+0000] {processor.py:768} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:12:40.190+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:12:40.190+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2024-07-20T05:12:40.211+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:12:40.211+0000] {dag.py:3328} INFO - Setting next_dagrun for data_pipeline to 2024-07-20T00:00:00+00:00, run_after=2024-07-21T00:00:00+00:00
+[2024-07-20T05:12:40.277+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.221 seconds
+[2024-07-20T05:12:43.274+0000] {processor.py:156} INFO - Started process (PID=781) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:12:43.277+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T05:12:43.279+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:12:43.278+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:12:43.421+0000] {processor.py:768} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:12:43.459+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:12:43.459+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2024-07-20T05:12:43.478+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:12:43.478+0000] {dag.py:3328} INFO - Setting next_dagrun for data_pipeline to 2024-07-20T00:00:00+00:00, run_after=2024-07-21T00:00:00+00:00
+[2024-07-20T05:12:43.497+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.232 seconds
+[2024-07-20T05:12:45.396+0000] {processor.py:156} INFO - Started process (PID=782) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:12:45.397+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T05:12:45.398+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:12:45.398+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:12:45.537+0000] {processor.py:768} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:12:45.576+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:12:45.576+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2024-07-20T05:12:45.600+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:12:45.600+0000] {dag.py:3328} INFO - Setting next_dagrun for data_pipeline to 2024-07-20T00:00:00+00:00, run_after=2024-07-21T00:00:00+00:00
+[2024-07-20T05:12:45.643+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.252 seconds
+[2024-07-20T05:12:46.572+0000] {processor.py:156} INFO - Started process (PID=783) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:12:46.573+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T05:12:46.575+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:12:46.574+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:12:46.676+0000] {processor.py:768} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:12:46.699+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:12:46.699+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2024-07-20T05:12:46.721+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:12:46.721+0000] {dag.py:3328} INFO - Setting next_dagrun for data_pipeline to 2024-07-20T00:00:00+00:00, run_after=2024-07-21T00:00:00+00:00
+[2024-07-20T05:12:46.738+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.170 seconds
+[2024-07-20T05:13:08.298+0000] {processor.py:156} INFO - Started process (PID=837) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:13:08.300+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T05:13:08.301+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:13:08.301+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:13:08.477+0000] {processor.py:768} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:13:08.517+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:13:08.516+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2024-07-20T05:13:08.542+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:13:08.542+0000] {dag.py:3328} INFO - Setting next_dagrun for data_pipeline to 2024-07-20T00:00:00+00:00, run_after=2024-07-21T00:00:00+00:00
+[2024-07-20T05:13:08.559+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.266 seconds
+[2024-07-20T05:13:09.331+0000] {processor.py:156} INFO - Started process (PID=838) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:13:09.333+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T05:13:09.334+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:13:09.334+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:13:09.419+0000] {processor.py:768} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:13:09.444+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:13:09.444+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2024-07-20T05:13:09.467+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:13:09.467+0000] {dag.py:3328} INFO - Setting next_dagrun for data_pipeline to 2024-07-20T00:00:00+00:00, run_after=2024-07-21T00:00:00+00:00
+[2024-07-20T05:13:09.487+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.161 seconds
+[2024-07-20T05:13:38.697+0000] {processor.py:156} INFO - Started process (PID=903) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:13:38.699+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T05:13:38.700+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:13:38.700+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:13:38.855+0000] {processor.py:768} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:13:38.890+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:13:38.890+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2024-07-20T05:13:38.916+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:13:38.916+0000] {dag.py:3328} INFO - Setting next_dagrun for data_pipeline to 2024-07-20T00:00:00+00:00, run_after=2024-07-21T00:00:00+00:00
+[2024-07-20T05:13:38.931+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.250 seconds
+[2024-07-20T05:13:45.755+0000] {processor.py:156} INFO - Started process (PID=914) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:13:45.757+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T05:13:45.758+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:13:45.758+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:13:45.767+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:13:45.766+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dag_ingestor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ingestor.py", line 124
+    extract_task = PythonOperator(
+               ^
+IndentationError: expected an indented block
+[2024-07-20T05:13:45.767+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:13:45.792+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.040 seconds
+[2024-07-20T05:13:49.859+0000] {processor.py:156} INFO - Started process (PID=915) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:13:49.861+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T05:13:49.863+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:13:49.863+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:13:49.970+0000] {processor.py:768} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:13:49.997+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:13:49.996+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2024-07-20T05:13:50.014+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:13:50.014+0000] {dag.py:3328} INFO - Setting next_dagrun for data_pipeline to 2024-07-20T00:00:00+00:00, run_after=2024-07-21T00:00:00+00:00
+[2024-07-20T05:13:50.030+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.177 seconds
+[2024-07-20T05:14:20.309+0000] {processor.py:156} INFO - Started process (PID=979) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:14:20.312+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T05:14:20.314+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:14:20.314+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:14:20.418+0000] {processor.py:768} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:14:20.445+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:14:20.445+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2024-07-20T05:14:20.478+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:14:20.478+0000] {dag.py:3328} INFO - Setting next_dagrun for data_pipeline to 2024-07-20T00:00:00+00:00, run_after=2024-07-21T00:00:00+00:00
+[2024-07-20T05:14:20.491+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.190 seconds
+[2024-07-20T05:14:50.879+0000] {processor.py:156} INFO - Started process (PID=1043) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:14:50.881+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T05:14:50.882+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:14:50.882+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:14:51.009+0000] {processor.py:768} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:14:51.050+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:14:51.049+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2024-07-20T05:14:51.083+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:14:51.083+0000] {dag.py:3328} INFO - Setting next_dagrun for data_pipeline to 2024-07-20T00:00:00+00:00, run_after=2024-07-21T00:00:00+00:00
+[2024-07-20T05:14:51.116+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.245 seconds
+[2024-07-20T05:14:52.914+0000] {processor.py:156} INFO - Started process (PID=1044) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:14:52.917+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T05:14:52.918+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:14:52.918+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:14:53.010+0000] {processor.py:768} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:14:53.035+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:14:53.034+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2024-07-20T05:14:53.052+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:14:53.052+0000] {dag.py:3328} INFO - Setting next_dagrun for data_pipeline to 2024-07-20T00:00:00+00:00, run_after=2024-07-21T00:00:00+00:00
+[2024-07-20T05:14:53.067+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.157 seconds
+[2024-07-20T05:14:59.038+0000] {processor.py:156} INFO - Started process (PID=1082) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:14:59.047+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T05:14:59.049+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:14:59.049+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:14:59.257+0000] {processor.py:768} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:14:59.335+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:14:59.334+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2024-07-20T05:14:59.362+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:14:59.362+0000] {dag.py:3328} INFO - Setting next_dagrun for data_pipeline to 2024-07-20T00:00:00+00:00, run_after=2024-07-21T00:00:00+00:00
+[2024-07-20T05:14:59.385+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.368 seconds
+[2024-07-20T05:15:30.186+0000] {processor.py:156} INFO - Started process (PID=1137) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:15:30.189+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T05:15:30.191+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:15:30.190+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:15:30.276+0000] {processor.py:768} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:15:30.297+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:15:30.296+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2024-07-20T05:15:30.316+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:15:30.316+0000] {dag.py:3328} INFO - Setting next_dagrun for data_pipeline to 2024-07-20T00:00:00+00:00, run_after=2024-07-21T00:00:00+00:00
+[2024-07-20T05:15:30.327+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.148 seconds
+[2024-07-20T05:16:01.083+0000] {processor.py:156} INFO - Started process (PID=1202) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:16:01.085+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T05:16:01.086+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:16:01.086+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:16:01.180+0000] {processor.py:768} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:16:01.206+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:16:01.206+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2024-07-20T05:16:01.226+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:16:01.226+0000] {dag.py:3328} INFO - Setting next_dagrun for data_pipeline to 2024-07-20T00:00:00+00:00, run_after=2024-07-21T00:00:00+00:00
+[2024-07-20T05:16:01.239+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.161 seconds
+[2024-07-20T05:16:31.591+0000] {processor.py:156} INFO - Started process (PID=1266) to work on /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:16:31.593+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dag_ingestor.py for tasks to queue
+[2024-07-20T05:16:31.593+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:16:31.593+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:16:31.684+0000] {processor.py:768} INFO - DAG(s) dict_keys(['data_pipeline']) retrieved from /opt/airflow/dags/dag_ingestor.py
+[2024-07-20T05:16:31.719+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:16:31.718+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2024-07-20T05:16:31.740+0000] {logging_mixin.py:117} INFO - [2024-07-20T05:16:31.740+0000] {dag.py:3328} INFO - Setting next_dagrun for data_pipeline to 2024-07-20T00:00:00+00:00, run_after=2024-07-21T00:00:00+00:00
+[2024-07-20T05:16:31.754+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dag_ingestor.py took 0.166 seconds
