@@ -59,13 +59,13 @@ def crawl_one_day(date, after_cursor=""):
     if(result["data"]["posts"]["pageInfo"]["hasNextPage"]):
         next_nodes = crawl_one_day(date, result["data"]["posts"]["pageInfo"]["endCursor"])
         return result["data"]["posts"]["nodes"] + next_nodes
-    
+
     return result["data"]["posts"]["nodes"] 
 
 def extract_data():
     day_one = crawl_one_day(from_iso((datetime.now() - timedelta(days=4)).strftime("%Y-%m-%d")))
 
-    return day_one
+    return json.dumps(day_one)
 
 # os.getenv("PH_ACCESS_TOKEN")
 # Define default arguments for the DAG
@@ -92,32 +92,31 @@ def save_to_s3(data, s3_bucket, s3_key, aws_conn_id):
 
     import pandas as pd
 
-    try:
-        s3_hook = S3Hook(aws_conn_id)
+    s3_hook = S3Hook(aws_conn_id)
 
-        file_exists = s3_hook.check_for_key(s3_key, s3_bucket)
+    file_exists = s3_hook.check_for_key(s3_key, s3_bucket)
 
-        if file_exists:
-            existing_file_obj = s3_hook.get_key(s3_key, s3_bucket)
-            string_data = existing_file_obj.get()['Body'].read().decode('utf-8')
-            existing_df = pd.read_csv(StringIO(string_data))
-        else:
-            existing_df = pd.DataFrame()
+    if file_exists:
+        existing_file_obj = s3_hook.get_key(s3_key, s3_bucket)
+        string_data = existing_file_obj.get()['Body'].read().decode('utf-8')
+        existing_df = pd.read_csv(StringIO(string_data))
+    else:
+        existing_df = pd.DataFrame()
 
-        new_df = pd.json_normalize(data)
-        new_df.drop_duplicates(subset='id', keep="first", inplace=True)
+    new_df = pd.json_normalize(json.loads(data))
 
-        merged_df = new_df if existing_df.empty else pd.concat([new_df, existing_df])
+    new_df.drop_duplicates(subset='id', keep="first", inplace=True)
 
-        # Save the merged DataFrame to a temporary file
-        merged_file_path = '/tmp/merged_products.csv'
-        merged_df.to_csv(merged_file_path, index=False)
+    merged_df = new_df if existing_df.empty else pd.concat([new_df, existing_df])
 
-        # Upload the merged file back to S3
-        s3_hook.load_file(filename=merged_file_path, key=s3_key,
-                          bucket_name=s3_bucket, replace=True)
-    except Exception as e:
-        logging.error(e)
+    # Save the merged DataFrame to a temporary file
+    merged_file_path = '/tmp/merged_products.csv'
+    merged_df.to_csv(merged_file_path, index=False)
+
+
+    # Upload the merged file back to S3
+    s3_hook.load_file(filename=merged_file_path, key=s3_key,
+                        bucket_name=s3_bucket, replace=True)
 
 
 # Define the extract_data task
@@ -134,9 +133,9 @@ save_task = PythonOperator(
     op_args=['{{ ti.xcom_pull(task_ids="extract_data") }}'],
     op_kwargs={
         'execution_date': '{{ ts }}',
-        's3_bucket': 'mlops-hot-or-meh',
+        's3_bucket': 'mlops-hot-or-meh2',
         's3_key': 'ProductHuntProducts.csv',
-        'aws_conn_id': 's3_conn',
+        'aws_conn_id': 's3_bucket_east',
         },
     dag=dag,
 )

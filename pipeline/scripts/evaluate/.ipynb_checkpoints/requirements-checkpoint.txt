@@ -1,0 +1,4 @@
+mlflow-skinny==2.13.2
+sagemaker-mlflow==0.1.0
+transformers==4.42.4
+scikit-learn==1.5.1
